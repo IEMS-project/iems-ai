@@ -1,0 +1,234 @@
+NỘI QUY LAO ĐỘNG VÀ QUY ĐỊNH CÔNG TY
+CÔNG TY TNHH GIẢI PHÁP QUẢN LÝ KỸ THUẬT VÀ THÔNG TIN (IEMS)
+I. MỤC ĐÍCH VÀ PHẠM VI ÁP DỤNG
+Điều 1. Mục đích
+Bản Nội quy Lao động (NQLĐ) này được ban hành nhằm thiết lập các quy tắc và chuẩn mực ứng xử chung trong Công ty TNHH Giải pháp Quản lý Kỹ thuật và Thông tin (IEMS), là cơ sở để duy trì trật tự, kỷ luật lao động, bảo đảm an toàn, vệ sinh lao động, và xây dựng môi trường làm việc chuyên nghiệp, hiệu quả.
+NQLĐ cụ thể hóa các quy định của pháp luật lao động, các quy định, chính sách nội bộ của Công ty IEMS nhằm bảo vệ quyền và lợi ích hợp pháp của cả Người lao động (NLĐ) và Công ty.
+Tạo điều kiện để mỗi cá nhân phát huy tối đa năng lực, đóng góp vào sự phát triển chung của Công ty trong lĩnh vực Công nghệ Thông tin.
+Góp phần xây dựng văn hóa doanh nghiệp minh bạch, tôn trọng, và hợp tác.
+Đảm bảo mọi hoạt động của Công ty IEMS tuân thủ các chuẩn mực đạo đức kinh doanh và pháp luật hiện hành.
+Thiết lập các tiêu chuẩn vận hành cho các bộ phận chuyên môn CNTT.
+Đảm bảo tính nhất quán trong quản lý và xử lý các vấn đề nhân sự.
+Định hướng cho NLĐ về các giá trị cốt lõi và hành vi được mong đợi.
+Là tài liệu tham chiếu chính thức cho các hoạt động quản lý nhân sự.
+Mục đích cuối cùng là đạt được hiệu suất công việc tối ưu trong môi trường an toàn.
+Điều 2. Phạm vi áp dụng
+NQLĐ này áp dụng cho toàn bộ cán bộ, nhân viên, người lao động (NLĐ) đang làm việc theo Hợp đồng Lao động (HĐLĐ) hoặc các hình thức làm việc khác tại Công ty IEMS.
+Tất cả các cá nhân, tổ chức có quan hệ hợp tác, giao dịch, hoặc làm việc tạm thời trong khuôn viên Công ty cũng phải tuân thủ các quy định về an toàn, an ninh và tác phong làm việc được quy định trong NQLĐ.
+NQLĐ này được công bố công khai và là một phần không thể thiếu trong HĐLĐ của NLĐ.
+Các cấp quản lý, từ Giám đốc dự án đến đội ngũ lãnh đạo cấp cao, có trách nhiệm gương mẫu thực hiện và giám sát việc tuân thủ NQLĐ.
+Phạm vi áp dụng bao gồm cả các dự án, công việc được thực hiện tại văn phòng Công ty IEMS hoặc tại địa điểm làm việc của khách hàng, đối tác.
+Áp dụng cho cả nhân viên làm việc từ xa (remote) theo quy định riêng về quản lý thời gian và bảo mật.
+NLĐ thử việc và NLĐ thời vụ cũng chịu sự điều chỉnh của NQLĐ này.
+Mọi điều khoản của NQLĐ phải được thông báo và tiếp thu đầy đủ bởi NLĐ.
+Việc không nắm rõ NQLĐ không được coi là lý do để miễn trách nhiệm khi vi phạm.
+NQLĐ là cơ sở để giải quyết các tranh chấp lao động nội bộ.
+II. THÔNG TIN CÔNG TY VÀ LÃNH ĐẠO CẤP CAO
+Điều 3. Tên và Lĩnh vực hoạt động
+Tên Công ty: CÔNG TY TNHH GIẢI PHÁP QUẢN LÝ KỸ THUẬT VÀ THÔNG TIN
+Tên giao dịch: IEMS (Information and Engineering Management Solutions)
+Lĩnh vực hoạt động cốt lõi: Công nghệ Thông tin (CNTT), bao gồm phát triển phần mềm, tư vấn giải pháp kỹ thuật số, quản lý hệ thống, và bảo mật thông tin.
+Công ty IEMS cam kết cung cấp các sản phẩm và dịch vụ CNTT chất lượng cao, đổi mới và tin cậy.
+Mọi hoạt động kinh doanh phải tuân thủ nghiêm ngặt các tiêu chuẩn kỹ thuật và đạo đức nghề nghiệp CNTT.
+Khuyến khích sự sáng tạo và áp dụng các công nghệ tiên tiến nhất.
+IEMS đặt mục tiêu trở thành đối tác tin cậy hàng đầu trong lĩnh vực giải pháp kỹ thuật.
+Các dự án phải được thực hiện theo quy trình chuẩn quốc tế (ví dụ: Agile, Scrum, PMP).
+Sản phẩm của IEMS luôn hướng tới tính ổn định, bảo mật và khả năng mở rộng.
+Duy trì sự chuyên nghiệp trong giao tiếp kỹ thuật và thương mại.
+Điều 4. Người Sáng lập (Founder)
+Chức danh: Người Sáng lập (Founder)
+Họ và tên: Ông Trần Phi Thắng
+Ông Trần Phi Thắng là người định hướng chiến lược, tầm nhìn và văn hóa cốt lõi cho Công ty IEMS.
+Mọi quyết định quan trọng về chiến lược phát triển công nghệ, thị trường và nhân sự đều được tham vấn hoặc phê duyệt bởi Ban Lãnh đạo cấp cao, dưới sự chỉ đạo của Founder.
+Founder là biểu tượng của tinh thần đổi mới và cam kết chất lượng của IEMS.
+Ông Thắng thúc đẩy môi trường làm việc cởi mở, khuyến khích sự đóng góp ý kiến từ mọi cấp bậc.
+Tầm nhìn của Founder tập trung vào việc áp dụng CNTT để giải quyết các vấn đề quản lý phức tạp.
+NLĐ cần tôn trọng và tuân thủ các chỉ đạo chiến lược từ Ban Lãnh đạo và Founder.
+Founder Trần Phi Thắng luôn đề cao sự minh bạch và chuyên nghiệp.
+Mọi vi phạm đạo đức nghề nghiệp đều bị xử lý nghiêm dưới sự giám sát của Founder.
+Điều 5. Trách nhiệm của các cấp Quản lý
+Đảm bảo NLĐ nắm rõ và tuân thủ NQLĐ.
+Tạo môi trường làm việc công bằng, minh bạch, hỗ trợ và phát triển.
+Giải quyết kịp thời các khiếu nại, thắc mắc và xung đột nội bộ.
+Đánh giá hiệu suất làm việc dựa trên các tiêu chí công bằng và rõ ràng.
+Thực hiện việc phân công, giám sát và kiểm tra công việc một cách hiệu quả.
+Thúc đẩy tinh thần đồng đội và trách nhiệm cá nhân trong dự án.
+Đào tạo và phát triển kỹ năng chuyên môn cho đội ngũ dưới quyền.
+Báo cáo định kỳ và đột xuất về tình hình nhân sự và dự án cho cấp trên.
+Gương mẫu tuân thủ NQLĐ và quy trình làm việc của IEMS.
+Chủ động nhận diện và xử lý các rủi ro liên quan đến nhân sự và dự án.
+III. GIỜ GIẤC LÀM VIỆC VÀ CHẤM CÔNG
+Điều 6. Quy định về Giờ làm việc
+Giờ làm việc tiêu chuẩn của Công ty IEMS là 08 giờ/ngày, 40 giờ/tuần (hoặc theo quy định cụ thể của từng dự án/bộ phận).
+Thời gian làm việc cụ thể:
+Buổi sáng: 8h30 – 12h00
+Nghỉ trưa: 12h00 – 13h30
+Buổi chiều: 13h30 – 17h30
+NLĐ phải có mặt tại nơi làm việc và sẵn sàng làm việc theo đúng giờ quy định.
+Giờ làm việc linh hoạt (Flex time) có thể được áp dụng cho một số bộ phận/chức danh theo phê duyệt riêng, nhưng phải đảm bảo hoàn thành khối lượng công việc và tham gia các cuộc họp cần thiết.
+Thời gian làm thêm giờ (OT) phải được cấp quản lý trực tiếp phê duyệt trước và được thực hiện theo đúng quy định của pháp luật lao động và chính sách Công ty.
+Bất kỳ thay đổi nào về giờ làm việc phải được thông báo trước ít nhất 24 giờ.
+NLĐ phải tập trung cao độ trong giờ làm việc, tránh làm việc riêng, gây ảnh hưởng đến năng suất chung.
+Việc sử dụng thời gian nghỉ trưa phải tuân thủ quy định và không làm ảnh hưởng đến không gian làm việc.
+Các cuộc họp phải được tổ chức trong khung giờ làm việc chính thức nếu không có yêu cầu đặc biệt.
+Việc tuân thủ nghiêm ngặt giờ giấc là bắt buộc để đảm bảo hoạt động liên tục của các hệ thống CNTT.
+Điều 7. Quy định về Chấm công và Ra/Vào
+Toàn bộ NLĐ phải thực hiện việc chấm công (bằng vân tay, thẻ từ, hoặc hệ thống nhận diện điện tử) cả khi vào và khi ra khỏi Công ty.
+Việc chấm công phải được thực hiện đúng giờ và tại khu vực quy định.
+Nghiêm cấm hành vi chấm công hộ hoặc nhờ người khác chấm công hộ dưới mọi hình thức.
+Trường hợp quên/lỗi chấm công, NLĐ phải báo cáo ngay lập tức cho Quản lý trực tiếp và Bộ phận Nhân sự (HR) để làm thủ tục xác nhận bổ sung.
+NLĐ không được tùy tiện rời khỏi vị trí làm việc trong giờ làm việc. Nếu có việc cần ra ngoài, phải báo cáo và được sự đồng ý của Quản lý trực tiếp.
+Việc ra ngoài trong giờ làm việc phải được ghi nhận rõ ràng mục đích và thời gian dự kiến quay lại.
+Quản lý trực tiếp có trách nhiệm nhắc nhở nhân viên về quy tắc chấm công.
+Việc chấm công phải là hành động cá nhân và tuyệt đối trung thực.
+Nghiêm cấm mọi hành vi gian lận giờ giấc làm việc.
+Dữ liệu chấm công là cơ sở để tính lương và đánh giá kỷ luật.
+Điều 8. Đi muộn, Về sớm, và Nghỉ việc
+Đi muộn/Về sớm: NLĐ đi muộn quá 03 lần trong 01 tháng (mỗi lần tối đa 15 phút) sẽ bị xem xét xử lý kỷ luật. Quy tắc đi muộn được áp dụng nghiêm ngặt để đảm bảo tính chuyên nghiệp.
+Trường hợp đi muộn quá 30 phút mà không có lý do chính đáng và được chấp thuận trước, sẽ bị tính là nghỉ không phép 1/2 ngày làm việc.
+Nghỉ phép: NLĐ cần nghỉ phải nộp đơn xin nghỉ phép theo quy trình nội bộ ít nhất 01 ngày làm việc (đối với phép thường) hoặc theo quy định riêng của Công ty.
+Nghỉ đột xuất: Trường hợp nghỉ đột xuất do ốm đau, tai nạn, NLĐ phải thông báo cho Quản lý trực tiếp và HR bằng phương tiện nhanh nhất (điện thoại, email) trước giờ làm việc và hoàn tất thủ tục sau khi đi làm lại.
+Nghỉ không phép là hành vi vi phạm NQLĐ nghiêm trọng và sẽ bị xử lý kỷ luật theo quy định.
+Mọi đơn xin nghỉ phép phải được phê duyệt chính thức bằng văn bản hoặc hệ thống điện tử.
+NLĐ có trách nhiệm bàn giao công việc trước khi nghỉ phép để không ảnh hưởng đến tiến độ dự án.
+Tình trạng nghỉ việc phải được thông báo chính thức theo thời gian quy định trong HĐLĐ.
+Nếu đi muộn vượt quá giới hạn quy định của Công ty, sẽ bị trừ vào phép năm hoặc bị xử lý kỷ luật.
+Vi phạm quy định về nghỉ không phép sẽ dẫn đến sa thải theo Điều 18.
+IV. TÁC PHONG VÀ ĐẠO ĐỨC NGHỀ NGHIỆP
+Điều 9. Trang phục và Tác phong
+Trang phục: NLĐ phải mặc trang phục lịch sự, gọn gàng, phù hợp với môi trường CNTT chuyên nghiệp của Công ty IEMS.
+Trang phục không được quá ngắn, quá hở, hoặc mang tính chất gây phản cảm.
+NLĐ tham gia gặp gỡ khách hàng, đối tác phải mặc trang phục nghiêm túc, thể hiện sự tôn trọng.
+Thẻ nhân viên: NLĐ phải đeo thẻ nhân viên (nếu có) khi làm việc trong khuôn viên Công ty và khi đại diện Công ty làm việc bên ngoài.
+Khuyến khích trang phục doanh nghiệp cho các cuộc họp quan trọng hoặc các sự kiện chính thức.
+Đầu tóc, móng tay phải gọn gàng, sạch sẽ.
+Hạn chế sử dụng mùi nước hoa quá nồng tại nơi làm việc chung.
+Bàn làm việc phải giữ gìn sạch sẽ, ngăn nắp.
+Lịch sự, gọn gàng là ưu tiên hàng đầu khi tiếp xúc với khách hàng.
+NLĐ phải duy trì tác phong chuyên nghiệp trong mọi hoàn cảnh.
+Điều 10. Đạo đức và Văn hóa Ứng xử
+NLĐ phải tôn trọng đồng nghiệp, cấp trên, cấp dưới, khách hàng và đối tác. Xưng hô lịch sự, nhã nhặn, đúng mực.
+Nghiêm cấm mọi hành vi quấy rối (tình dục, tinh thần), phân biệt đối xử (chủng tộc, giới tính, tôn giáo, tuổi tác) và bắt nạt tại nơi làm việc.
+Thực hiện văn hóa góp ý xây dựng, tránh nói xấu, bôi nhọ danh dự của cá nhân, tổ chức.
+Khuyến khích sự hợp tác, chia sẻ kiến thức và kinh nghiệm trong công việc.
+Trung thực, minh bạch trong mọi hoạt động công việc và tài chính.
+Mọi tranh luận chuyên môn phải dựa trên dữ liệu, logic, và tinh thần xây dựng.
+Xây dựng môi trường làm việc không thuốc lá và không rượu bia (trừ các buổi tiệc chính thức).
+Tôn trọng đồng nghiệp là nền tảng của Văn hóa IEMS.
+Tuyệt đối không sử dụng ngôn ngữ thô tục, bạo lực bằng lời nói hoặc hành động.
+Mọi mâu thuẫn phải được giải quyết thông qua kênh quản lý và HR.
+Điều 11. Xung đột Lợi ích và Tuyệt mật
+NLĐ không được tham gia hoặc có bất kỳ hoạt động kinh doanh nào cạnh tranh trực tiếp với Công ty IEMS.
+Nghiêm cấm tiết lộ, sử dụng hoặc chuyển giao thông tin mật của Công ty (bao gồm dữ liệu khách hàng, mã nguồn phần mềm, chiến lược kinh doanh, tài chính, quy trình kỹ thuật) cho bên thứ ba hoặc vì lợi ích cá nhân.
+Tất cả các sản phẩm, sáng kiến, phát minh do NLĐ thực hiện trong quá trình làm việc thuộc quyền sở hữu của Công ty IEMS.
+Mọi dữ liệu khách hàng, mã nguồn phần mềm, thuật toán độc quyền, và quy trình phát triển sản phẩm (SDLC) là tài sản tuyệt mật của IEMS.
+NLĐ phải ký cam kết bảo mật (NDA) và tuân thủ tuyệt đối các quy định về bảo mật thông tin trong và sau khi chấm dứt HĐLĐ.
+Nghiêm cấm việc sao chép, tải về, hoặc gửi ra bên ngoài các tệp tin, dữ liệu quan trọng không liên quan trực tiếp đến công việc được giao.
+Mọi công việc, ý tưởng, sáng tạo kỹ thuật số, và sản phẩm phần mềm phát triển trên thiết bị và trong giờ làm việc của Công ty, đều thuộc Quyền Sở Hữu Trí Tuệ của IEMS.
+NLĐ phải sử dụng các mật khẩu mạnh, thay đổi định kỳ, và không chia sẻ tài khoản làm việc, VPN, hoặc tài khoản quản trị hệ thống.
+Chính sách bảo mật là tối thượng đối với công ty CNTT như IEMS.
+Bất kỳ nghi ngờ về xung đột lợi ích phải được báo cáo ngay lập tức cho Quản lý hoặc HR.
+V. SỬ DỤNG TÀI SẢN VÀ CƠ SỞ VẬT CHẤT
+Điều 12. Quản lý Thiết bị CNTT
+Máy tính, phần mềm, tài khoản hệ thống do Công ty cung cấp chỉ được sử dụng cho mục đích công việc.
+Nghiêm cấm cài đặt các phần mềm không có bản quyền, các ứng dụng không liên quan đến công việc hoặc truy cập các trang web có nội dung không lành mạnh, gây nguy hại cho hệ thống mạng nội bộ.
+NLĐ có trách nhiệm bảo quản thiết bị, tài sản được giao. Nếu làm hư hỏng, mất mát do lỗi cá nhân, NLĐ có thể phải chịu trách nhiệm bồi thường theo quy định.
+Mọi thiết bị phần cứng, phần mềm bản quyền (License Keys), tài khoản Cloud (AWS, Azure, Google Cloud) được cấp phát phải được sử dụng hiệu quả và đúng mục đích công việc.
+NLĐ không được cài đặt hoặc chạy các ứng dụng gây quá tải hệ thống hoặc có nguy cơ bảo mật.
+Việc kết nối thiết bị cá nhân (USB, ổ cứng di động, điện thoại) với mạng nội bộ/máy tính Công ty phải tuân thủ quy định kiểm soát của bộ phận IT.
+Kiểm kê tài sản CNTT sẽ được thực hiện định kỳ và đột xuất.
+Tài sản CNTT phải được bảo quản cẩn thận.
+Mọi sự cố kỹ thuật phải được báo cáo IT, không tự ý sửa chữa thiết bị được cấp phát.
+Không mang thiết bị Công ty ra khỏi văn phòng mà không có sự cho phép bằng văn bản.
+Điều 13. Sử dụng Mạng và Internet
+Tuyệt đối không sử dụng email, mạng xã hội, hoặc bất kỳ phương tiện truyền thông nào để phát tán các thông tin tiêu cực, xuyên tạc, hoặc gây tổn hại đến hình ảnh, uy tín của Công ty IEMS.
+Tuân thủ chính sách bảo mật thông tin và an toàn mạng của Công ty. Báo cáo ngay lập tức các sự cố bảo mật (virus, mã độc, truy cập trái phép) cho bộ phận IT.
+Băng thông mạng phải được ưu tiên cho các hoạt động công việc chính thức.
+Hạn chế tối đa việc xem phim, nghe nhạc, chơi game gây lãng phí tài nguyên mạng.
+Việc trao đổi thông tin mật phải qua các kênh an toàn và được mã hóa nếu cần thiết.
+Mọi email công việc là tài sản của Công ty và có thể được kiểm tra khi cần thiết.
+Nghiêm cấm tải lên hoặc chia sẻ nội dung vi phạm bản quyền.
+Việc sử dụng mạng xã hội trong giờ làm việc phải được hạn chế tối đa, chỉ phục vụ mục đích công việc.
+NLĐ phải chịu trách nhiệm về nội dung mình đăng tải trên các nền tảng số nếu có liên quan đến IEMS.
+Tuyệt đối không sử dụng tài khoản công ty cho mục đích cá nhân, chính trị hoặc tôn giáo.
+VI. QUY ĐỊNH VỀ AN TOÀN, AN NINH VÀ BẢO VỆ
+Điều 14. An toàn Lao động và Phòng cháy chữa cháy (PCCC)
+NLĐ phải tuân thủ nghiêm ngặt các quy tắc an toàn lao động, đặc biệt trong môi trường CNTT (an toàn điện, tư thế làm việc).
+Chủ động tìm hiểu và thực hành các quy định PCCC, vị trí bình chữa cháy, lối thoát hiểm.
+Không được hút thuốc trong khu vực cấm, không mang chất dễ cháy nổ vào Công ty.
+NLĐ được khuyến khích áp dụng các quy tắc về Ergonomics (công thái học) để đảm bảo sức khỏe khi làm việc với máy tính trong thời gian dài (nghỉ giải lao, tư thế ngồi).
+Công ty đảm bảo môi trường làm việc đủ ánh sáng, thoáng mát, và an toàn về điện, thiết bị mạng.
+Phải tham gia đầy đủ các buổi huấn luyện về An toàn Lao động và PCCC do Công ty tổ chức.
+Phòng cháy chữa cháy là trách nhiệm của mỗi cá nhân.
+Báo cáo ngay lập tức các nguy cơ mất an toàn hoặc hư hỏng thiết bị PCCC.
+Đảm bảo lối đi, lối thoát hiểm luôn thông thoáng và không bị chắn.
+Tuyệt đối không tự ý ngắt kết nối các thiết bị an toàn.
+Điều 15. Quy định An ninh và Giám sát
+Mọi người ra vào Công ty (bao gồm NLĐ và khách) phải tuân thủ quy trình kiểm soát an ninh tại cổng/lễ tân.
+Công ty có quyền sử dụng hệ thống camera giám sát để đảm bảo an ninh, tài sản, và kỷ luật lao động.
+Khách đến làm việc phải đăng ký và có thẻ khách.
+NLĐ không được tự ý dẫn người lạ vào khu vực làm việc mà không có sự cho phép.
+Hệ thống camera giám sát được lắp đặt công khai và nhằm mục đích bảo vệ chung.
+NLĐ phải hợp tác khi có yêu cầu kiểm tra an ninh từ đội ngũ bảo vệ.
+Việc kiểm tra túi xách, vật dụng cá nhân có thể được thực hiện khi có lý do chính đáng về an ninh.
+Mọi sự cố an ninh cần được báo cáo ngay lập tức cho Ông Võ Nguyễn Xuân Thịnh (Phụ trách An ninh) và Quản lý.
+Khu vực giữ xe phải tuân thủ nghiêm ngặt quy định của bảo vệ.
+Hạn chế mang tài sản cá nhân có giá trị lớn đến nơi làm việc.
+Điều 16. Phụ trách An ninh/Bảo vệ
+Chức danh: Phụ trách An ninh/Bảo vệ
+Họ và tên: Ông Võ Nguyễn Xuân Thịnh
+Ông Võ Nguyễn Xuân Thịnh và đội ngũ bảo vệ có trách nhiệm:
+Giám sát việc tuân thủ quy định ra/vào, giữ gìn trật tự và an toàn chung.
+Hỗ trợ NLĐ trong các trường hợp khẩn cấp về an ninh, PCCC.
+Quản lý tài sản Công ty tại khu vực được phân công.
+Kiểm tra và ghi nhận toàn bộ hoạt động ra/vào của NLĐ và khách, đặc biệt là ngoài giờ hành chính.
+Thực hiện tuần tra định kỳ để đảm bảo không có sự cố PCCC hoặc đột nhập.
+Ông Thịnh có quyền yêu cầu bất kỳ ai không tuân thủ quy định an ninh (ví dụ: không đeo thẻ) phải tuân thủ hoặc rời khỏi khu vực.
+Mọi NLĐ cần hợp tác và tuân thủ hướng dẫn của đội ngũ an ninh khi được yêu cầu.
+Đội ngũ an ninh phải hành động chuyên nghiệp, tôn trọng NLĐ và khách.
+Bảo vệ Võ Nguyễn Xuân Thịnh đảm bảo an ninh vật chất và trật tự chung.
+Mọi vấn đề an ninh phải được thông qua sự điều phối của ông Thịnh.
+Cung cấp báo cáo chi tiết về các sự kiện an ninh xảy ra trong ca trực.
+Đảm bảo hệ thống camera, cửa ra vào hoạt động tốt.
+VII. VI PHẠM VÀ KỶ LUẬT LAO ĐỘNG
+Điều 17. Các hình thức Kỷ luật
+Việc xử lý kỷ luật được thực hiện theo nguyên tắc khách quan, công bằng và đúng pháp luật.
+Các hình thức kỷ luật bao gồm:
+Khiển trách miệng: Áp dụng cho các vi phạm nhỏ, lần đầu (ví dụ: đi muộn 1-2 lần/tháng).
+Khiển trách bằng văn bản: Áp dụng cho vi phạm mức độ trung bình hoặc tái phạm (ví dụ: đi muộn nhiều lần, vi phạm quy tắc tác phong).
+Kéo dài thời hạn nâng lương/Cách chức: Áp dụng cho các vi phạm nghiêm trọng (ví dụ: vi phạm kỷ luật về sử dụng tài sản, không hoàn thành nhiệm vụ).
+Sa thải: Áp dụng cho các vi phạm đặc biệt nghiêm trọng, gây thiệt hại lớn hoặc những hành vi tái phạm nhiều lần đã bị xử lý kỷ luật trước đó.
+Công ty sẽ tổ chức họp xét xử kỷ luật với sự tham gia của NLĐ vi phạm và đại diện Công đoàn.
+Quyết định kỷ luật phải được lập thành văn bản và thông báo cho NLĐ.
+NLĐ có quyền khiếu nại về quyết định kỷ luật theo quy trình.
+Việc xử lý kỷ luật không làm mất đi quyền yêu cầu bồi thường thiệt hại (nếu có).
+Mức độ xử lý kỷ luật sẽ căn cứ vào tính chất, mức độ của hành vi vi phạm và hậu quả gây ra.
+Mọi trường hợp vi phạm sẽ được ghi vào hồ sơ cá nhân.
+Vi phạm sẽ dẫn đến kỷ luật theo Điều 17.
+Các quy định về Kỷ luật được áp dụng công bằng và minh bạch.
+Điều 18. Các hành vi Vi phạm Nghiêm trọng (Dẫn đến Sa thải)
+Trộm cắp, tham ô, cố ý gây thiệt hại nghiêm trọng cho tài sản, lợi ích của Công ty IEMS.
+Tiết lộ bí mật kinh doanh, bí mật công nghệ (mã nguồn, quy trình) của Công ty.
+Nghỉ việc không phép từ 05 ngày cộng dồn trở lên trong 01 tháng hoặc 20 ngày cộng dồn trở lên trong 01 năm.
+Quấy rối tình dục, bạo lực hoặc các hành vi xúc phạm nghiêm trọng danh dự, nhân phẩm người khác.
+Sử dụng chất kích thích, rượu bia trong giờ làm việc gây ảnh hưởng đến hiệu suất và an toàn.
+Giả mạo hồ sơ, tài liệu hoặc gian lận trong công việc, đặc biệt là tài liệu kỹ thuật.
+Phá hoại hệ thống CNTT hoặc cố tình làm rò rỉ dữ liệu khách hàng.
+Tổ chức hoặc tham gia đình công bất hợp pháp.
+Xâm phạm nghiêm trọng quyền sở hữu trí tuệ của IEMS.
+Tái phạm hành vi đã bị khiển trách bằng văn bản mà vẫn tiếp tục vi phạm.
+VIII. ĐIỀU KHOẢN THI HÀNH
+Điều 19. Hiệu lực và Sửa đổi
+Nội quy này có hiệu lực kể từ ngày ban hành và được áp dụng cho đến khi có nội quy mới thay thế.
+Ông Trần Phi Thắng (Founder) và Ban Lãnh đạo cấp cao có quyền sửa đổi, bổ sung Nội quy này khi cần thiết để phù hợp với tình hình thực tế và quy định của pháp luật.
+Việc sửa đổi, bổ sung phải được thông báo rộng rãi đến toàn bộ NLĐ.
+NLĐ có trách nhiệm cập nhật và tuân thủ các phiên bản mới nhất của Nội quy.
+Nội quy này đã được đăng ký với cơ quan quản lý nhà nước về lao động (nếu cần).
+Mọi thắc mắc về Nội quy phải được gửi bằng văn bản đến Bộ phận Nhân sự.
+Nội quy là cơ sở pháp lý nội bộ cao nhất điều chỉnh hành vi của NLĐ.
+NLĐ đã đọc, hiểu rõ và cam kết tuân thủ nghiêm túc các điều khoản.
+Bản Nội quy này được lưu trữ tại Bộ phận Nhân sự.
+Ngày ban hành: [Ngày/Tháng/Năm]
+NGƯỜI SÁNG LẬP (FOUNDER)
+(Ký tên, đóng dấu)
+TRẦN PHI THẮNG

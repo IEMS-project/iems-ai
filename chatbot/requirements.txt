@@ -1,0 +1,30 @@
+# Core LangChain stack
+langchain>=0.2.12
+langchain-community>=0.2.11
+langchain-core>=0.2.12
+langchain-ollama>=0.1.0
+
+# Vector database (FAISS)
+faiss-cpu>=1.8.0
+
+# Embeddings
+sentence-transformers>=3.2.0
+
+# Text processing
+transformers>=4.35.0
+torch>=2.1.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.1
+requests>=2.31.0
+
+# Web interface (FastAPI cho backend)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# CLI interface (Flask cho web mode)
+flask>=2.3.0
+
+
