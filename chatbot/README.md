@@ -3,8 +3,17 @@
 ### Mô tả
 Chatbot hỏi đáp dựa trên tài liệu trong thư mục `documents/`, sử dụng LangChain, FAISS và Ollama model `qwen2.5:latest` chạy local.
 
+**Tính năng mới: 🧠 Quản lý Nhiều Cuộc Hội Thoại + MongoDB**
+- Chatbot có thể quản lý nhiều cuộc hội thoại đồng thời
+- Tên cuộc hội thoại được tạo tự động dựa trên câu hỏi đầu tiên
+- Chuyển đổi giữa các cuộc hội thoại khác nhau
+- Mỗi cuộc hội thoại có trí nhớ riêng biệt
+- **Lưu trữ dài hạn trong MongoDB theo userID**
+- **Quản lý nhiều users với dữ liệu riêng biệt**
+- Quản lý với các lệnh `/new`, `/list`, `/switch`, `/delete`, `/current`, `/user`, `/sync`
+
 **Hỗ trợ 3 chế độ:**
-- CLI: Giao diện dòng lệnh
+- CLI: Giao diện dòng lệnh với trí nhớ
 - Web: Giao diện web Flask
 - **Backend API: API riêng biệt cho React frontend** ⭐
 
@@ -21,7 +30,11 @@ chatbot-rag/
 ├── rag_pipeline/                 # Pipeline RAG
 │   ├── retriever.py
 │   ├── generator.py
-│   └── chatbot.py
+│   ├── chatbot.py
+│   ├── memory.py                 # 🧠 Trí nhớ conversation
+│   ├── conversation_manager.py   # 📋 Quản lý nhiều cuộc hội thoại
+│   ├── database.py               # 🗄️ MongoDB integration
+│   └── user_manager.py           # 👤 Quản lý user và session
 ├── prompts/                      # Prompt templates
 │   ├── system_prompt.txt
 │   ├── user_prompt_template.txt
@@ -54,7 +67,7 @@ chatbot-rag/
    ```bash
    ollama serve
    ```
-5. Cài thư viện Python:
+5. Cài thư viện Python (bao gồm PyMongo):
    ```bash
    pip install -r requirements.txt
    ```
@@ -71,11 +84,28 @@ python -m data_processing.build_vectorstore
 
 ## Cách sử dụng
 
-### 1. CLI Mode (Dòng lệnh)
+### 1. CLI Mode (Dòng lệnh) 🧠
 ```bash
 python run_chatbot.py
 ```
-Nhập câu hỏi, gõ `exit` hoặc `quit` để thoát.
+**Tính năng quản lý cuộc hội thoại + MongoDB:**
+- Tạo nhiều cuộc hội thoại với tên tự động
+- Chuyển đổi giữa các cuộc hội thoại khác nhau
+- Mỗi cuộc hội thoại có trí nhớ riêng biệt
+- **Lưu trữ dài hạn trong MongoDB theo userID**
+- **Quản lý nhiều users với dữ liệu riêng biệt**
+- Lệnh đặc biệt:
+  - `/user <id>` - Chuyển sang user khác
+  - `/new` - Tạo cuộc hội thoại mới
+  - `/list` - Xem danh sách cuộc hội thoại
+  - `/switch <id>` - Chuyển sang cuộc hội thoại khác
+  - `/delete <id>` - Xóa cuộc hội thoại
+  - `/current` - Xem thông tin cuộc hội thoại hiện tại
+  - `/memory` - Xem tóm tắt lịch sử hội thoại hiện tại
+  - `/clear` - Xóa lịch sử hội thoại hiện tại
+  - `/sync` - Đồng bộ dữ liệu vào database
+  - `/help` - Hiển thị hướng dẫn
+- Nhập câu hỏi bình thường, gõ `exit` hoặc `quit` để thoát
 
 ### 2. Web Mode (Giao diện web)
 ```bash

@@ -9,13 +9,14 @@ Generator: Sinh câu trả lời tiếng Việt từ LLM dựa trên context l�
 
 from __future__ import annotations
 
-from typing import List
+from typing import List, Optional
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
 
 from config.model_config import get_llm
 from prompts.prompt_manager import get_system_prompt, format_user_prompt
+from models.conversation_memory import ConversationMemory
 
 
 def _render_context(docs: List[Document]) -> str:
@@ -29,11 +30,12 @@ def _render_context(docs: List[Document]) -> str:
     return "\n\n---\n\n".join(rendered)
 
 
-def generate_answer(query: str, context_docs: List[Document]) -> str:
-    """Gọi LLM để sinh câu trả lời dựa trên các đoạn context cung cấp.
+def generate_answer(query: str, context_docs: List[Document], memory: Optional[ConversationMemory] = None) -> str:
+    """Gọi LLM để sinh câu trả lời dựa trên các đoạn context cung cấp và lịch sử hội thoại.
 
     - query: câu hỏi của người dùng
     - context_docs: danh sách Document từ retriever
+    - memory: conversation memory (tùy chọn)
     - trả về: chuỗi câu trả lời tiếng Việt
     """
     print("[generator] Chuẩn bị prompt và gọi LLM...")
@@ -42,7 +44,14 @@ def generate_answer(query: str, context_docs: List[Document]) -> str:
     # Load prompts từ file
     system_prompt = get_system_prompt()
     context_str = _render_context(context_docs)
-    user_prompt = format_user_prompt(context_str, query)
+    
+    # Thêm conversation history nếu có
+    conversation_context = ""
+    if memory and memory.get_history_count() > 0:
+        conversation_context = memory.get_recent_context(num_turns=5)
+        print(f"[generator] Sử dụng {memory.get_history_count()} lượt hội thoại trước đó")
+    
+    user_prompt = format_user_prompt(context_str, query, conversation_context)
 
     prompt = ChatPromptTemplate.from_messages([
         ("system", system_prompt),
@@ -60,11 +69,12 @@ def generate_answer(query: str, context_docs: List[Document]) -> str:
     return answer.strip()
 
 
-def generate_answer_stream(query: str, context_docs: List[Document]):
-    """Gọi LLM để sinh câu trả lời streaming dựa trên các đoạn context cung cấp.
+def generate_answer_stream(query: str, context_docs: List[Document], memory: Optional[ConversationMemory] = None):
+    """Gọi LLM để sinh câu trả lời streaming dựa trên các đoạn context cung cấp và lịch sử hội thoại.
 
     - query: câu hỏi của người dùng
     - context_docs: danh sách Document từ retriever
+    - memory: conversation memory (tùy chọn)
     - trả về: generator của các chunk text
     """
     print("[generator] Chuẩn bị prompt và gọi LLM streaming...")
@@ -73,7 +83,14 @@ def generate_answer_stream(query: str, context_docs: List[Document]):
     # Load prompts từ file
     system_prompt = get_system_prompt()
     context_str = _render_context(context_docs)
-    user_prompt = format_user_prompt(context_str, query)
+    
+    # Thêm conversation history nếu có
+    conversation_context = ""
+    if memory and memory.get_history_count() > 0:
+        conversation_context = memory.get_recent_context(num_turns=5)
+        print(f"[generator] Sử dụng {memory.get_history_count()} lượt hội thoại trước đó")
+    
+    user_prompt = format_user_prompt(context_str, query, conversation_context)
 
     prompt = ChatPromptTemplate.from_messages([
         ("system", system_prompt),
