@@ -20,6 +20,7 @@ from models.conversation_memory import ConversationMemory
 from models.conversation import ConversationManager
 from services.user_service import UserManager
 from services.jwt_service import extract_user_id_from_token, validate_jwt_token
+from services.task_service import is_task_related_query, handle_task_query
 
 
 class CompanyChatbot:
@@ -57,6 +58,11 @@ class CompanyChatbot:
         if not self.validate_jwt_token():
             return "❌ JWT token không hợp lệ hoặc đã hết hạn. Vui lòng đăng nhập lại."
 
+        # Kiểm tra xem câu hỏi có liên quan đến tasks không
+        if is_task_related_query(query):
+            print("[chatbot] Phát hiện câu hỏi về tasks, chuyển sang task service...")
+            return handle_task_query(self.jwt_token, query)
+
         # Lấy conversation hiện tại (đã được tạo ở API level nếu cần)
         current_conv = self.user_manager.get_current_conversation()
         if not current_conv:
@@ -86,6 +92,15 @@ class CompanyChatbot:
         # Validate JWT token trước khi xử lý
         if not self.validate_jwt_token():
             yield "❌ JWT token không hợp lệ hoặc đã hết hạn. Vui lòng đăng nhập lại."
+            return
+
+        # Kiểm tra xem câu hỏi có liên quan đến tasks không
+        if is_task_related_query(query):
+            print("[chatbot] Phát hiện câu hỏi về tasks, chuyển sang task service...")
+            task_response = handle_task_query(self.jwt_token, query)
+            # Lưu lượt hội thoại vào memory và database
+            self.user_manager.add_turn(query, task_response)
+            yield task_response
             return
 
         # Lấy conversation hiện tại (đã được tạo ở API level nếu cần)
