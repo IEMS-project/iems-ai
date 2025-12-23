@@ -1,9 +1,11 @@
 ## Chatbot RAG tài liệu nội bộ (Python + LangChain + FAISS + Ollama)
 
 ### Mô tả
+
 Chatbot hỏi đáp dựa trên tài liệu trong thư mục `documents/`, sử dụng LangChain, FAISS và Ollama model `qwen2.5:latest` chạy local.
 
 **Tính năng mới: 🧠 Quản lý Nhiều Cuộc Hội Thoại + MongoDB**
+
 - Chatbot có thể quản lý nhiều cuộc hội thoại đồng thời
 - Tên cuộc hội thoại được tạo tự động dựa trên câu hỏi đầu tiên
 - Chuyển đổi giữa các cuộc hội thoại khác nhau
@@ -12,12 +14,23 @@ Chatbot hỏi đáp dựa trên tài liệu trong thư mục `documents/`, sử 
 - **Quản lý nhiều users với dữ liệu riêng biệt**
 - Quản lý với các lệnh `/new`, `/list`, `/switch`, `/delete`, `/current`, `/user`, `/sync`
 
+**✨ Tính năng Task Management mới:**
+
+- 📋 Tự động phát hiện câu hỏi về công việc/tasks
+- 🔄 Tích hợp với Task Service API
+- 📊 Phân tích và ưu tiên tasks theo status, priority, deadline
+- 🎯 Hiển thị top 3-5 tasks cần làm trước
+- 🌐 Hỗ trợ cả tiếng Việt và tiếng Anh
+- 📝 Format markdown đẹp mắt với emoji
+
 **Hỗ trợ 3 chế độ:**
+
 - CLI: Giao diện dòng lệnh với trí nhớ
 - Web: Giao diện web Flask
 - **Backend API: API riêng biệt cho React frontend** ⭐
 
 ### Cấu trúc
+
 ```
 chatbot-rag/
 ├── documents/                    # Tài liệu nguồn
@@ -55,6 +68,7 @@ chatbot-rag/
 ```
 
 ### Chuẩn bị môi trường
+
 1. Cài Python 3.10+
 2. Cài đặt Ollama:
    - Windows: https://ollama.ai/download
@@ -77,7 +91,9 @@ chatbot-rag/
    ```
 
 ### Xây dựng vectorstore
+
 Đặt các file `.txt` vào `documents/`, sau đó chạy:
+
 ```bash
 python -m data_processing.build_vectorstore
 ```
@@ -85,10 +101,13 @@ python -m data_processing.build_vectorstore
 ## Cách sử dụng
 
 ### 1. CLI Mode (Dòng lệnh) 🧠
+
 ```bash
 python run_chatbot.py
 ```
+
 **Tính năng quản lý cuộc hội thoại + MongoDB:**
+
 - Tạo nhiều cuộc hội thoại với tên tự động
 - Chuyển đổi giữa các cuộc hội thoại khác nhau
 - Mỗi cuộc hội thoại có trí nhớ riêng biệt
@@ -108,41 +127,97 @@ python run_chatbot.py
 - Nhập câu hỏi bình thường, gõ `exit` hoặc `quit` để thoát
 
 ### 2. Web Mode (Giao diện web)
+
 ```bash
 python run_web.py
 ```
+
 Truy cập: http://localhost:5000
 
 ### 3. Backend API Mode (Cho React) ⭐
+
 ```bash
 python run_backend.py
 ```
+
 - API chạy tại: http://localhost:8000
 - API docs: http://localhost:8000/docs
 - Hỗ trợ CORS cho React frontend
 
 #### Cài đặt dependencies cho backend:
+
 ```bash
 pip install -r backend/requirements.txt
 ```
 
 #### API Endpoints:
+
 - `POST /api/chat` - Gửi câu hỏi
 - `GET /api/status` - Kiểm tra trạng thái
 - `GET /api/health` - Health check
 
 #### Tích hợp với React:
+
 Xem file `backend/react_integration_example.js` để biết cách tích hợp với React frontend.
 
 ### Ghi chú
+
 - Model sinh: `qwen2.5:latest` (chạy local với Ollama)
 - Endpoint: `http://localhost:11434` (Ollama local)
 - Embedding: SentenceTransformers local (`all-MiniLM-L6-v2`)
 - Vector database: FAISS (thay vì ChromaDB để tránh vấn đề SQLite)
 
+---
+
+## 📋 Task Management Feature
+
+Chatbot tự động phát hiện và xử lý câu hỏi về công việc/tasks của người dùng.
+
+### Cách sử dụng
+
+Hỏi chatbot về công việc bằng các câu hỏi như:
+
+- "Hôm nay tôi cần làm gì?"
+- "Cho tôi xem danh sách công việc"
+- "Task nào cần ưu tiên?"
+- "Show me my tasks"
+- "What should I do today?"
+
+### Tính năng
+
+✅ **Tự động phát hiện** câu hỏi về tasks (tiếng Việt + tiếng Anh)  
+✅ **Fetch tasks** từ API với JWT authentication  
+✅ **Phân tích và ưu tiên** dựa trên:
+
+- Status (IN_PROGRESS > TO_DO)
+- Priority (HIGH > MEDIUM > LOW)
+- Due Date (sắp hết hạn > còn thời gian)
+
+✅ **Format đẹp** với:
+
+- Emoji indicators (🔴 HIGH, 🟡 MEDIUM, 🟢 LOW)
+- Cảnh báo deadline (⚠️ quá hạn, 🔴 hôm nay, 🟡 ngày mai)
+- Top 3-5 tasks ưu tiên + danh sách tasks còn lại
+- Lý do ưu tiên cho mỗi task
+
+### Testing
+
+```bash
+python test_task_feature.py
+```
+
+### Chi tiết
+
+Xem tài liệu đầy đủ trong [TASK_MANAGEMENT_DOCS.md](TASK_MANAGEMENT_DOCS.md)
+
+### Requirements
+
+- Task service phải chạy tại `http://localhost:8080`
+- Endpoint: `GET /task-service/tasks/my-tasks`
+- Cần JWT token hợp lệ để authentication
+
 ### Troubleshooting
+
 - **Lỗi kết nối Ollama**: Đảm bảo `ollama serve` đang chạy
 - **Model không tìm thấy**: Chạy `ollama pull qwen2.5:latest`
 - **Chậm**: Model local có thể chậm hơn cloud API, đây là bình thường
-
-
