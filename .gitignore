@@ -130,11 +130,6 @@ dmypy.json
 
 # Project specific
 # Vector stores and model files
-vectorstore/
-*.faiss
-*.pkl
-*.bin
-*.safetensors
 
 # API keys and secrets
 .env
@@ -167,7 +162,7 @@ desktop.ini
 .pytest_cache/
 
 # Model downloads
-models/
+
 checkpoints/
 
 # Data files (uncomment if you don't want to track data)

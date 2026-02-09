@@ -37,14 +37,14 @@ def get_relevant_docs(query: str, k: int = 3):
         print("[retriever] Cau truy van trong. Tra ve danh sach rong.")
         return []
 
-    print(f"[retriever] Nhan truy van: {query}")
+    print(f"[retriever] Nhận truy vấn: {query}")
     vectorstore = load_vectorstore()
-    print("[retriever] Thuc hien similarity_search...")
+    print("[retriever] Đang thực hiện similarity search...")
     docs = vectorstore.similarity_search(query, k=k)
-    print(f"[retriever] Tim duoc {len(docs)} doan phu hop nhat.")
+    print(f"[retriever] Tìm được {len(docs)} đoạn phù hợp.")
     for i, d in enumerate(docs, 1):
         source = d.metadata.get("source", "<unknown>")
-        print(f"[retriever] Top {i} — nguon: {os.path.basename(source)} — do dai: {len(d.page_content)}")
+        print(f"[retriever] Top {i} — nguồn: {os.path.basename(source)} — độ dài: {len(d.page_content)}")
     return docs
 
 

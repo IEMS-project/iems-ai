@@ -38,10 +38,16 @@ def get_user_prompt_template() -> str:
     return load_prompt_file("user_prompt_template.txt")
 
 
-def format_user_prompt(context: str, question: str) -> str:
-    """Format user prompt với context và question."""
+def format_user_prompt(context: str, question: str, conversation_history: str = "") -> str:
+    """Format user prompt với context, question và conversation history."""
     template = get_user_prompt_template()
-    return template.format(context=context, question=question)
+    
+    # Format template với tất cả các placeholder
+    return template.format(
+        context=context, 
+        question=question, 
+        conversation_history=conversation_history
+    )
 
 
 def get_prompts() -> Dict[str, str]:

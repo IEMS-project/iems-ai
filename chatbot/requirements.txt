@@ -27,4 +27,10 @@ pydantic>=2.5.0
 # CLI interface (Flask cho web mode)
 flask>=2.3.0
 
+# Database (MongoDB)
+pymongo>=4.6.0
+
+# JWT Authentication
+PyJWT>=2.8.0
+
 
